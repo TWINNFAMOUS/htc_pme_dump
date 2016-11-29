@@ -1,0 +1,6 @@
+TaskID : 490430
+Project : PERFUME_WL_N70_SENSE80GP_VZW_MR
+SKU : NA Gen Unlock[617]
+ROM Ver : 2.28.617.8
+Customization Id : 3049744
+RCMS Id : 231

@@ -1,0 +1,4 @@
+<config>
+    <allow-in-power-save package="com.htc.vvm.vzw" />
+    <allow-in-data-usage-save package="com.htc.vvm.vzw" />
+</config>

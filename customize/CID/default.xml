@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="application">
+    <module name="FOTA">
+      <function name="settings">
+        <set name="single">
+          <item name="Enable_FOTA_UI" type="boolean">yes</item>
+          <item name="Enable_Manual_Check" type="boolean">yes</item>
+          <item name="Default_Download_Wifi" type="boolean">no</item>
+        </set>
+      </function>
+    </module>
+    <module name="roaming">
+      <function name="default_roaming">
+        <set name="plenty" max="5">
+          <item name="data_roaming">0</item>
+        </set>
+      </function>
+    </module>
+    <module name="Crash_Report">
+      <function name="setting">
+        <set name="single">
+          <item name="turn_off_report" type="boolean">no</item>
+          <item name="turn_off_application_log" type="boolean">no</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="Settings">
+    <module name="list">
+      <function name="regulatory_generic_list">
+        <set name="single">
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="country_1">Americas</item>
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="icon_2">/system/customize/resource/rp_fcc.png</item>
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="text_3">FCC ID: NM82PS6500</item>
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="text_4">IC: 4115A-2PS6500</item>
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="icon_5">/system/customize/resource/rp_weee.png</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="SettingsProvider">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="def_2g_on">3</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="system">
+    <module name="deviceData">
+      <function>
+        <set name="single">
+          <item name="device_name">HTC 10</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData1">
+      <function>
+        <set name="single">
+          <item name="sw_number">NA</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="ACC">
+    <module name="Settings">
+      <function name="settings">
+        <set>
+          <item name="enable_E911_for_US_only" type="boolean">true</item>
+        </set>
+      </function>
+      <function name="supported_locales">
+        <set name="ar" type="string-array">
+          <item>ar-EG</item>
+          <item>ar-IL</item>
+        </set>
+        <set name="bg" type="string-array">
+          <item>bg-BG</item>
+        </set>
+        <set name="ca" type="string-array">
+          <item>ca-ES</item>
+        </set>
+        <set name="da" type="string-array">
+          <item>da-DK</item>
+        </set>
+        <set name="el" type="string-array">
+          <item>el-GR</item>
+        </set>
+        <set name="en" type="string-array">
+          <item>en-IN</item>
+          <item>en-IE</item>
+          <item>en-US</item>
+          <item>en-CA</item>
+          <item>en-ZA</item>
+        </set>
+        <set name="es" type="string-array">
+          <item>es-ES</item>
+          <item>es-US</item>
+        </set>
+        <set name="fr" type="string-array">
+          <item>fr-CA</item>
+          <item>fr-FR</item>
+        </set>
+        <set name="fi" type="string-array">
+          <item>fi-FI</item>
+        </set>
+        <set name="hi" type="string-array">
+          <item>hi-IN</item>
+        </set>
+        <set name="hr" type="string-array">
+          <item>hr-HR</item>
+        </set>
+        <set name="hu" type="string-array">
+          <item>hu-HU</item>
+        </set>
+        <set name="in" type="string-array">
+          <item>in-ID</item>
+        </set>
+        <set name="it" type="string-array">
+          <item>it-CH</item>
+        </set>
+        <set name="iw" type="string-array">
+          <item>iw-IL</item>
+        </set>
+        <set name="ja" type="string-array">
+          <item>ja-JP</item>
+        </set>
+        <set name="ko" type="string-array">
+          <item>ko-KR</item>
+        </set>
+        <set name="lt" type="string-array">
+          <item>lt-LT</item>
+        </set>
+        <set name="lv" type="string-array">
+          <item>lv-LV</item>
+        </set>
+        <set name="nb" type="string-array">
+          <item>nb-NO</item>
+        </set>
+        <set name="pl" type="string-array">
+          <item>pl-PL</item>
+        </set>
+        <set name="pt" type="string-array">
+          <item>pt-BR</item>
+          <item>pt-PT</item>
+        </set>
+        <set name="ro" type="string-array">
+          <item>ro-RO</item>
+        </set>
+        <set name="ru" type="string-array">
+          <item>ru-RU</item>
+        </set>
+        <set name="tr" type="string-array">
+          <item>tr-TR</item>
+        </set>
+        <set name="sk" type="string-array">
+          <item>sk-SK</item>
+        </set>
+        <set name="sl" type="string-array">
+          <item>sl-SI</item>
+        </set>
+        <set name="sr-Cyrl" type="string-array">
+          <item>sr-Cyrl-RS</item>
+        </set>
+        <set name="sr-Latn" type="string-array">
+          <item>sr-Latn-RS</item>
+        </set>
+        <set name="sv" type="string-array">
+          <item>sv-SE</item>
+        </set>
+        <set name="th" type="string-array">
+          <item>th-TH</item>
+        </set>
+        <set name="uk" type="string-array">
+          <item>uk-UA</item>
+        </set>
+        <set name="vi" type="string-array">
+          <item>vi-VN</item>
+        </set>
+        <set name="zh-Hans" type="string-array">
+          <item>zh-Hans-CN</item>
+        </set>
+        <set name="zh-Hant" type="string-array">
+          <item>zh-Hant-TW</item>
+        </set>
+      </function>
+      <function name="supported-Language-list">
+        <set name="Language-order" type="string-array">
+          <item>ar</item>
+          <item>bg</item>
+          <item>ca</item>
+          <item>da</item>
+          <item>el</item>
+          <item>en</item>
+          <item>es</item>
+          <item>fr</item>
+          <item>fi</item>
+          <item>hi</item>
+          <item>hr</item>
+          <item>hu</item>
+          <item>in</item>
+          <item>it</item>
+          <item>iw</item>
+          <item>ja</item>
+          <item>ko</item>
+          <item>lt</item>
+          <item>lv</item>
+          <item>nb</item>
+          <item>pl</item>
+          <item>pt</item>
+          <item>ro</item>
+          <item>ru</item>
+          <item>tr</item>
+          <item>sk</item>
+          <item>sl</item>
+          <item>sr-Cyrl</item>
+          <item>sr-Latn</item>
+          <item>sv</item>
+          <item>th</item>
+          <item>uk</item>
+          <item>vi</item>
+          <item>zh-Hans</item>
+          <item>zh-Hant</item>
+        </set>
+      </function>
+    </module>
+    <module name="Camera">
+      <function name="settings">
+        <set>
+          <item name="photo_booth_skin_level" type="string">0.0</item>
+          <item name="selfie_mode_skin_level" type="string">0.0</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <BootConfiguration>
+    <BootAnimation animation="/system/customize/resource/hTC_bootup.zip" audio="/system/customize/resource/HTC_Sense5_Boot.mp3" audiostart="part3" audiostartframe="1" />
+    <!-- splash_screen.png -->
+  </BootConfiguration>
+  <ShutdownConfiguration>
+    <ShutdownAnimation image_png="/system/customize/resource/hTC_downanimation.zip" />
+  </ShutdownConfiguration>
+  <category name="AudioService">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="enable_listen_notify">true</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>

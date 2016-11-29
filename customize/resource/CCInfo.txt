@@ -1,0 +1,6 @@
+﻿ROM Build ID: 3049744
+ROM Name: NA Generic
+SKU ID: 165094, SKU Name: NA Generic default, CID: default, MNS: default
+SKU ID: 165093, SKU Name: [CNW] TMOUS18(310160), CID: default, MNS: 310160
+SKU ID: 165092, SKU Name: [CNW] ATT09(311180), CID: default, MNS: 311180
+Datetime: 2016/11/07 15:46:23

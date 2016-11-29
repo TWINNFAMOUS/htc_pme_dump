@@ -1,0 +1,10 @@
+service ril-daemon /system/bin/rild
+    class main
+    socket rild stream 660 root radio
+    socket sap_uim_socket1 stream 660 bluetooth bluetooth
+    socket rild-debug stream 660 radio system
+    socket cfiat stream 660 radio inet
+    socket kipc stream 660 radio inet
+    user root
+#SSD_RIL: add rild into carrier group
+    group radio cache inet misc audio log readproc wakelock qcom_diag carrier
